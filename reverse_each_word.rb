@@ -5,7 +5,7 @@ def reverse_each_word(string)
   array.collect {|word| word + " "}
   i = 0
   while i < array.length - 1 do 
-   result += (entry.reverse + " ")
+   result += (array[i].reverse + " ")
  end
  result += array[-1].reverse
   return result
